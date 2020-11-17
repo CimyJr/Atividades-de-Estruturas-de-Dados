@@ -1,13 +1,15 @@
+
 package trabalhoArrey;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 public class Agenda {
 	String nome;
 	String tel;
 	String email;
-	static ArrayList<Agenda> Lista = new ArrayList();
+	static ArrayList<Agenda> Lista = new ArrayList(); // A principal especificação era essa, usar a estrutura ArrayList
 
 	public static void main(String[] args) {
 
